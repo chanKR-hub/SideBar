@@ -5,8 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SideBar"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="600" Width="850"
+        WindowStartupLocation="CenterScreen"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent">
+    
     <Grid>
+        <!--Border Settings-->
+        <Border Background="#212529"
+                CornerRadius="20"/>
 
+        <!--Base Grid-->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="228"/>
+            <ColumnDefinition Width="622"/>
+        </Grid.ColumnDefinitions>
     </Grid>
 </Window>
